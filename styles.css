@@ -1,0 +1,63 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#chat-output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1em;
+}
+
+#user-input {
+    width: calc(100% - 70px);
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

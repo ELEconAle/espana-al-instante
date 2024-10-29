@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>España al Instante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>España al Instante</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#funciones">Funciones</a>
+            <a href="#demo">Demo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Bienvenida -->
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Practica conversaciones cotidianas en español y asimílate más fácilmente a la vida en España.</p>
+        <p>Esta aplicación te ayudará a desenvolverte en situaciones reales, desde abrir una cuenta bancaria hasta pagar facturas.</p>
+    </section>
+
+    <!-- Funciones -->
+    <section id="funciones">
+        <h2>Funciones</h2>
+        <ul>
+            <li><strong>Abrir una Cuenta Bancaria</strong>: Practica cómo abrir una cuenta bancaria en España y entender los requisitos.</li>
+            <li><strong>Oficina de Extranjeros</strong>: Aprende cómo comunicarte en trámites de residencia.</li>
+            <li><strong>Pagar Facturas</strong>: Familiarízate con la gestión de facturas de servicios básicos.</li>
+            <!-- Otros escenarios en desarrollo -->
+        </ul>
+    </section>
+
+    <!-- Demo de Conversación -->
+    <section id="demo">
+        <h2>Demo: Abrir una Cuenta Bancaria</h2>
+        <div id="chat-box">
+            <div id="chat-output"></div>
+            <input type="text" id="user-input" placeholder="Escribe aquí..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </section>
+
+    <!-- Formulario de Suscripción -->
+    <section id="contacto">
+        <h2>Recibe Noticias</h2>
+        <p>Suscríbete para recibir información sobre el lanzamiento de la versión completa:</p>
+        <form id="subscription-form">
+            <input type="email" id="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+        <p id="subscription-message"></p>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
